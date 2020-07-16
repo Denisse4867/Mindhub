@@ -1,0 +1,91 @@
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	height: 45vh;
+	width: 100vw;
+	background-image: url(../img/design2_image1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 126vh;
+	top: 35vh;
+}
+
+.active {
+	background-color: limegreen;
+}
+
+
+nav {
+	position: absolute;
+	top: 10vh;
+	right: 10vw;
+}
+
+nav>a {
+	display: inline-block;
+	margin: 25px;
+	background-color: #29489c;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	box-shadow: 5px 5px 5px black;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active{
+	text-decoration: underline;
+}
+
+section {
+	float: right;
+	position: absolute;
+	top: 440px;
+	left: 180px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-top: 0px;
+	padding-left: 12px;
+}
+
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+main {
+	border: 1px solid black;
+	width: 70 vw;
+	float: left;
+}
+
+header>h2 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin-bottom: 0pt;
+}
