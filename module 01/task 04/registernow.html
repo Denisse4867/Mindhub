@@ -1,242 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-		<title>Register Now</title>
-		<link rel="stylesheet" href="styles/nysl_3.css">
-		<link rel="icon" href="/task 04/img/logo.png" type="image/x-icon">
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<title>Register Now</title>
+	<link rel="stylesheet" href="styles/nysl_3.css">
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+</head>
 
 <body>
-		<header>
-			<h1> Northside Youth Soccer League </h1>
-			<h2> Registration Form </h2>
-			<div class="logo">
-				<img id="logo" src="img/logo.png" alt="Logo">
-			</div>
-		</header>
+	<header>
+		<h1> Northside Youth Soccer League </h1>
+		<h2> Registration Form </h2>
+		<div class="logo">
+			<img id="logo" src="img/logo.png" alt="Logo">
+		</div>
+	</header>
 
-		<nav id="nav-block">
-			<a href="index.html"> Home </a>
-			<a href="about.html"> About NYSL </a>
-			<a href="gallery.html"> Gallery</a>
-			<a href="rules.html"> Rules & Policies </a>
-			<a href="game_info.html"> Schedule </a>
-			<a class="active" href="registernow.html"> Register </a>
-			<a href="contact.html"> Contact </a>
-		</nav>
-		<main class="register">
-			<form action="show_data.html">
+	<nav id="nav-block">
+		<a href="index.html"> Home </a>
+		<a href="about.html"> About NYSL </a>
+		<a href="gallery.html"> Gallery</a>
+		<a href="rules.html"> Rules & Policies </a>
+		<a href="game_info.html"> Schedule </a>
+		<a class="active" href="registernow.html"> Register </a>
+		<a href="contact.html"> Contact </a>
+	</nav>
+	<main class="register">
+		<form action="show_data.html">
 
-				<fieldset>
-					<legend> Full Name </legend>
-					<label>
-						Player's First Name:
-						<input type="text" placeholder="John" name="first-name" id="first-name">
-					</label>
-					<label>
-						Last Name:
-						<input type="text" placeholder="Doe" name="last-name" id="last-name">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend> Full Name </legend>
+				<label>
+					Player's First Name:
+					<input type="text" placeholder="John" name="first-name" id="first-name">
+				</label>
+				<label>
+					Last Name:
+					<input type="text" placeholder="Doe" name="last-name" id="last-name">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend> Address </legend>
-					<label>
-						Street Address:
-						<input type="text" placeholder="Kingston Ave. 643" name="street-address" id="street-address">
-					</label>
-					<label>
-						City:
-						<input type="text" placeholder="Chicago" name="city" id="city">
-					</label>
-					<label>
-						Zip Code:
-						<input type="number" placeholder="12345" name="zip-code" id="zip-code">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend> Address </legend>
+				<label>
+					Street Address:
+					<input type="text" placeholder="Kingston Ave. 643" name="street-address" id="street-address">
+				</label>
+				<label>
+					City:
+					<input type="text" placeholder="Chicago" name="city" id="city">
+				</label>
+				<label>
+					Zip Code:
+					<input type="number" placeholder="12345" name="zip-code" id="zip-code">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend> Birth and Gender </legend>
-					<label>
-						Birth Date:
-						<input type="date" name="birth-date" id="birth-date">
-					</label>
-					<label for="gender">
-						Select Gender:
-						<select name="gender" id="gender">
-							<option value="male">Male</option>
-							<option value="female">Female</option>
-						</select>
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend> Birth and Gender </legend>
+				<label>
+					Birth Date:
+					<input type="date" name="birth-date" id="birth-date">
+				</label>
+				<label for="gender">
+					Select Gender:
+					<select name="gender" id="gender">
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend> Grade </legend>
-					<label for="grade">
-						Select grade:
-						<select name="grade" id="grade">
-							<option value="pre-school">Pre-School</option>
-							<option value="1st-grade">1st Grade</option>
-							<option value="2nd-grade">2nd Grade</option>
-							<option value="3rd-grade">3rd Grade</option>
-							<option value="4th-grade">4th Grade</option>
-							<option value="5th-grade">5th Grade</option>
-						</select>
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend> Grade </legend>
+				<label for="grade">
+					Select grade:
+					<select name="grade" id="grade">
+						<option value="pre-school">Pre-School</option>
+						<option value="1st-grade">1st Grade</option>
+						<option value="2nd-grade">2nd Grade</option>
+						<option value="3rd-grade">3rd Grade</option>
+						<option value="4th-grade">4th Grade</option>
+						<option value="5th-grade">5th Grade</option>
+					</select>
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend> Tutor Information </legend>
-					<label>
-						Parent/Guardian
-						<input type="text" placeholder="John" name="Parent-Guardian" id="contact-name">
-					</label>
-					<label>
-						Contact-Phone
-						<input type="tel" placeholder="1123985748" name="Contact-Phone" id="contact-phone">
-					</label>
-					<label>
-						Contact-email
-						<input type="email" placeholder="jondoe@mail.com" name="Parent-Guardian" id="contact-email">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend> Tutor Information </legend>
+				<label>
+					Parent/Guardian
+					<input type="text" placeholder="John" name="Parent-Guardian" id="contact-name">
+				</label>
+				<label>
+					Contact-Phone
+					<input type="tel" placeholder="1123985748" name="Contact-Phone" id="contact-phone">
+				</label>
+				<label>
+					Contact-email
+					<input type="email" placeholder="jondoe@mail.com" name="Parent-Guardian" id="contact-email">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						Which elementary schools do you live near?
-					</legend>
-					<label for="first-closest">
-						First Closest School:
-						<select name="first-closest" id="first-closest">
-							<option value="AJ-Katzenmaier">AJ Katzenmaier</option>
-							<option value="Greenbay">Greenbay</option>
-							<option value="Howard-A-Yeager">Howard A Yeager</option>
-							<option value="Marjorie-P-Hart">Marjorie P Hart</option>
-							<option value="North-Elementary">North Elementary</option>
-							<option value="South-Elementary">South Elementary</option>
-						</select>
-					</label>
-					<label for="second-closest">
-						Second Closest School:
-						<select name="second-closest" id="second-closest">
-							<option value="AJ-Katzenmaier">AJ Katzenmaier</option>
-							<option value="Greenbay">Greenbay</option>
-							<option value="Howard-A-Yeager">Howard A Yeager</option>
-							<option value="Marjorie-P-Hart">Marjorie P Hart</option>
-							<option value="North-Elementary">North Elementary</option>
-							<option value="South-Elementary">South Elementary</option>
-						</select>
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					Which elementary schools do you live near?
+				</legend>
+				<label for="first-closest">
+					First Closest School:
+					<select name="first-closest" id="first-closest">
+						<option value="AJ-Katzenmaier">AJ Katzenmaier</option>
+						<option value="Greenbay">Greenbay</option>
+						<option value="Howard-A-Yeager">Howard A Yeager</option>
+						<option value="Marjorie-P-Hart">Marjorie P Hart</option>
+						<option value="North-Elementary">North Elementary</option>
+						<option value="South-Elementary">South Elementary</option>
+					</select>
+				</label>
+				<label for="second-closest">
+					Second Closest School:
+					<select name="second-closest" id="second-closest">
+						<option value="AJ-Katzenmaier">AJ Katzenmaier</option>
+						<option value="Greenbay">Greenbay</option>
+						<option value="Howard-A-Yeager">Howard A Yeager</option>
+						<option value="Marjorie-P-Hart">Marjorie P Hart</option>
+						<option value="North-Elementary">North Elementary</option>
+						<option value="South-Elementary">South Elementary</option>
+					</select>
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						What position(s) do you normally play? (check all that apply)
-					</legend>
-					<label>
-						Forward
-						<input type="checkbox" class="position-1" name="position-1" value="forward">
-					</label>
-					<label>
-						Midfield
-						<input type="checkbox" class="position-1" name="position-1" value="midfield">
-					</label>
-					<label>
-						Defense
-						<input type="checkbox" class="position-1" name="position-1" value="defense">
-					</label>
-					<label>
-						Goalkeeper
-						<input type="checkbox" class="position-1" name="position-1" value="goalkeeper">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					What position(s) do you normally play? (check all that apply)
+				</legend>
+				<label>
+					Forward
+					<input type="checkbox" class="position-1" name="position-1" value="forward">
+				</label>
+				<label>
+					Midfield
+					<input type="checkbox" class="position-1" name="position-1" value="midfield">
+				</label>
+				<label>
+					Defense
+					<input type="checkbox" class="position-1" name="position-1" value="defense">
+				</label>
+				<label>
+					Goalkeeper
+					<input type="checkbox" class="position-1" name="position-1" value="goalkeeper">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						What position(s) do you want to play? (check all that apply)
-					</legend>
-					<label>
-						Forward
-						<input type="checkbox" class="position-2" name="position-2" value="forward">
-					</label>
-					<label>
-						Midfield
-						<input type="checkbox" class="position-2" name="position-2" value="midfield">
-					</label>
-					<label>
-						Defense
-						<input type="checkbox" class="position-2" name="position-2" value="defense">
-					</label>
-					<label>
-						Goalkeeper
-						<input type="checkbox" class="position-2" name="position-2" value="goalkeeper">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					What position(s) do you want to play? (check all that apply)
+				</legend>
+				<label>
+					Forward
+					<input type="checkbox" class="position-2" name="position-2" value="forward">
+				</label>
+				<label>
+					Midfield
+					<input type="checkbox" class="position-2" name="position-2" value="midfield">
+				</label>
+				<label>
+					Defense
+					<input type="checkbox" class="position-2" name="position-2" value="defense">
+				</label>
+				<label>
+					Goalkeeper
+					<input type="checkbox" class="position-2" name="position-2" value="goalkeeper">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						Already Have a Uniform
-					</legend>
-					<label>
-						Check if yes:
-						<input type="checkbox" id="have-uniform" name="have-uniform" value="true">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					Already Have a Uniform
+				</legend>
+				<label>
+					Check if yes:
+					<input type="checkbox" id="have-uniform" name="have-uniform" value="true">
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						Equipment Size:
-					</legend>
-					<label for="jersey-size">
-						Jersey Size
-						<select name="jersey-size" id="jersey-size">
-							<option value="youth-small">Youth Small</option>
-							<option value="youth-medium">Youth Medium</option>
-							<option value="youth-large">Youth Large</option>
-							<option value="small">Small</option>
-							<option value="medium">Medium</option>
-							<option value="large">Large</option>
-							<option value="extra-large">Extra-Large</option>
-						</select>
-					</label>
-					<label for="short-size">
-						Short Size
-						<select name="short-size" id="short-size">
-							<option value="youth-small">Youth Small</option>
-							<option value="youth-medium">Youth Medium</option>
-							<option value="youth-large">Youth Large</option>
-							<option value="small">Small</option>
-							<option value="medium">Medium</option>
-							<option value="large">Large</option>
-							<option value="extra-large">Extra-Large</option>
-						</select>
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					Equipment Size:
+				</legend>
+				<label for="jersey-size">
+					Jersey Size
+					<select name="jersey-size" id="jersey-size">
+						<option value="youth-small">Youth Small</option>
+						<option value="youth-medium">Youth Medium</option>
+						<option value="youth-large">Youth Large</option>
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+						<option value="extra-large">Extra-Large</option>
+					</select>
+				</label>
+				<label for="short-size">
+					Short Size
+					<select name="short-size" id="short-size">
+						<option value="youth-small">Youth Small</option>
+						<option value="youth-medium">Youth Medium</option>
+						<option value="youth-large">Youth Large</option>
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+						<option value="extra-large">Extra-Large</option>
+					</select>
+				</label>
+			</fieldset>
 
-				<fieldset>
-					<legend>
-						Permission to Play
-					</legend>
-					<p>
-						I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities,which transportation. <br> <br> By signing below, I hereby agree andauthorizethe above.In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
-					</p>
-					<label>
-						Parent/Guardian Signature:
-						<input type="text" placeholder="John" name="signature" id="signature">
-					</label>
-					<label>
-						Date:
-						<input type="date" name="signature-date" id="signature-date">
-					</label>
-				</fieldset>
+			<fieldset>
+				<legend>
+					Permission to Play
+				</legend>
+				<p>
+					I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+					the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical
+					injury associated with soccer and in consideration for the “League” accepting the registrant for its
+					soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+					employees and associated personnel and volunteers,including the facilities used for practices and
+					games, against any claim by or on behalf of the registrant as a result of the registrant’s
+					participation in the program and/or being transported to or from NYSL sponsored activities,which
+					transportation. <br> <br> By signing below, I hereby agree andauthorizethe above.In addition, by
+					signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+				</p>
+				<label>
+					Parent/Guardian Signature:
+					<input type="text" placeholder="John" name="signature" id="signature">
+				</label>
+				<label>
+					Date:
+					<input type="date" name="signature-date" id="signature-date">
+				</label>
+			</fieldset>
 
-				<input type="submit" id="send" value="Send">
+			<input type="submit" id="send" value="Send">
 
-			</form>
-		</main>
-	</body>
+		</form>
+	</main>
+</body>
+
 </html>
