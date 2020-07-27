@@ -115,6 +115,10 @@ console.log(array[array.length-1]);
 array[6] = 99;
 console.log(array);
 
+array.sort();
+console.log('array sorteado')
+console.log(array);
+
 //*################################################################################################
 
 //? Ciclos for(cuantas veces se repite un ciclo). var + la condicion + las veces que se repite.
@@ -255,7 +259,7 @@ for (var i = 0; i < familia.length; i++) {
 
 //*################################################################################################
 
-//? FUNCIONES!
+//? FUNCIONES!:
 
 function printFullNames(arrayGeneral){
 	console.log('Funcion llamada')
@@ -280,4 +284,3 @@ function suma(n1, n2){
 var suma1 = suma(782, 4721);
 var suma2 = suma(48, 59);
 var suma3 = suma(4856,1245);
-
