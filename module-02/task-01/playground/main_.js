@@ -51,18 +51,32 @@ si no entonces
 
 //EJERCICIO 1.
 
+namesArray = [];
 
+namesArray.sort()
+
+for (var i = 0; i < namesArray.length; i++) {
+	console.log(namesArray[i]);
+}
 
 //EJERCICIO 2.
 
+agesArray = [];
 
+var j = 0;
 
+while (j < agesArray.length) {
+	if (agesArray[j] % 2 == 0) {
+		console.log(agesArray[j]);
+	}
+	j++;
+}
 
 //EJERCICIO 3. Crear una función que reciba un array como parámetro e imprima por consola el menor numero.
 
-function menorNumero(array){
+function minorNumber(array){
 	var menor=array[0];
-	for(var i=0; i< array.lenght; i++){
+	for(var i=0; i< array.length; i++){
 		if(array[i] < menor){
 			menor=array[i]
 		}
@@ -70,13 +84,13 @@ function menorNumero(array){
 	console.log(`El menor número del array es: ${menor}`)
 }
 
-menorNumero(startEdades)
-menorNumero([12,-4,34,21])
+minorNumber(startEdades)
+minorNumber([12,-4,34,21])
 
 
 //EJERCICIO 4. Crear una función que reciba un array como parametro e imprima por consola el mayor numero.
 
-function mayorNumero(array) {
+function maxNumber(array) {
 	var mayor= array[0]
 	for(var index= 0; index < array.length; index++) {
 		if (array[index] > mayor) {
@@ -85,21 +99,21 @@ function mayorNumero(array) {
 	}
 	console.log(`El mayor número del array es: ${mayor}`)
 }
-mayorNumero(startEdades)
+maxNumber(startEdades)
 
 
 //EJERCICIO 5. Crear una funcion que reciba un array y un indice como parametros e imprima por consola el valor que se encuentre en ese indice.
 
-function buscarEnIndice(array,index){
+function searchInIndex(array,index){
 	console.log(array[index])
 }
 console.log(startEdades)
-buscarEnIndice(startEdades,1)
+searchInIndex(startEdades,1)
 
 
 //EJERCICIO 6: Crear una funcion que reciba un array como parametro e imprima por consola los valores que se repiten.
 
-function hayarRepetidos(array){
+function findRepeated (array){
 	var repetidos=[];
 	var objetoAuxiliar={};
 	for (var i=0; i < array.length; i++){
@@ -114,8 +128,6 @@ function hayarRepetidos(array){
 		}
 	}
 }
-
-
 
 /* Objetos: era una variable con muchos datos adentro.*/
 
