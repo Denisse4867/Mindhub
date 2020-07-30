@@ -73,6 +73,12 @@ while (j < agesArray.length) {
 }
 
 //EJERCICIO 3. Crear una función que reciba un array como parámetro e imprima por consola el menor numero.
+/*Creamos una funcion con los mismos parametros "() y {}", primero definimos esa funcion para despues ponerle dentro la variable,
+definimos una variable, en este caso "menor" para hacer referencia al ejercicio y y luego ponemos la variable y el indice, en este caso 0 ya que queremos que cuente desde ahi, luego
+iteramos con un bucle for (acordar del mismo parametro y de que define la var, el indice cero, el indice menor al array, y la cantidad de numeros que saltea.)
+hacemos un if en donde dentro esta el array, su indice y a que es menor.
+Por ultimo definimos una variable, este caso "var menor" (es el array de start).
+*/
 
 function minorNumber(array){
 	var menor=array[0];
@@ -89,7 +95,8 @@ minorNumber([12,-4,34,21])
 
 
 //EJERCICIO 4. Crear una función que reciba un array como parametro e imprima por consola el mayor numero.
-
+//!Si tenemos que recorrer el array tenemos que usar un bucle, while o for.
+//! La FUNCION da la posibilidad de que los parametros sean genericos.  "usamos array ya que al printear si se pone el nombre del array se reemplaza esos parametros genericos"
 function maxNumber(array) {
 	var mayor= array[0]
 	for(var index= 0; index < array.length; index++) {

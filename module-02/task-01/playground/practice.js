@@ -284,3 +284,12 @@ function suma(n1, n2){
 var suma1 = suma(782, 4721);
 var suma2 = suma(48, 59);
 var suma3 = suma(4856,1245);
+
+
+//! DOM. Document Object Model
+/* Es una interfaz de programación de aplicaciones (API) que proporciona un conjunto estándar de objetos para representar
+
+Cuando una página web esta cargada, el navegador crea  un modelo de objetos del Documento de la página.
+
+El DOM del html es construido como un árbol de Objetos.*/
+
