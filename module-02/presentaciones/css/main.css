@@ -1,0 +1,169 @@
+/*main{
+    text-align: center;
+}*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    border: 2px solid black;
+    
+}
+
+.grid-container div{
+    padding: 1em;
+    background-color: #6995F2;
+    border: 3px solid black;
+}
+
+img{
+    width: 500px;
+    border: 2px solid black;
+}
+
+img:hover{
+    transform: scale(1.2);
+    border: 2px solid black;
+    transition: 1s;
+}
+
+p{
+    margin: 5px;
+    padding: 0px;
+    font-size: 300%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightpink;
+}
+
+
+/* ************* Estilos de los narradores ************* */
+
+.grid-container>div:first-child{
+    grid-column: 1 / span 2;
+}
+
+.grid-container>div:nth-child(4){
+    grid-column: 1 / span 2;
+}
+
+.grid-container>div:nth-child(10){
+    grid-column: 1 / span 2;
+}
+
+.grid-container>div:nth-child(13){
+    grid-column: 1 / span 2;
+}
+
+.grid-container>div:nth-child(14){
+    grid-column: 1 / span 2;
+}
+
+#gallery>.grid-container>div:last-child{
+    grid-column: 1 / span 2;
+
+}
+
+#ejemplo {
+    width: 80%;
+    align-items: center;
+}
+
+/* ************* Estilos de los escenas ************* */
+
+#escena1{
+    width: 50%;
+}
+
+#escena2{
+    width: 75%;
+}
+
+#escena6{
+    width: 38%;
+}
+
+.grid-container>div:nth-child(9){
+    grid-column: 1 / span 2;
+}
+
+/* ************* Eleccion de las tostadas ************* */
+
+div#foto1{
+    width: 1150px;
+    height: 1250px;
+    width: 98%;
+    background-image: url(../img/fondo1.png);
+    background-repeat: no-repeat;
+}
+
+div#foto2{
+    width: 1150px;
+    height: 1250px;
+    width: 98%;
+    background-color: 6995F2;
+    background-image: url(../img/fondo2.png);
+    background-repeat: no-repeat;
+}
+
+
+div#info1{
+    width: 1150px;
+    height: 890px;
+    background-image: url(../img/escena3_DDL.png);
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+div#info2{
+    width: 1150px;
+    height: 890px;
+    background-image: url(../img/escena3_MERMELADA.png);
+    background-repeat: no-repeat;
+    visibility: hidden;
+
+}
+
+div#foto1:hover div#info1{
+    visibility: visible;
+    transition: 2s;
+}
+
+div#foto2:hover div#info2{
+    visibility: visible;
+    transition: 2s;
+}
+
+/* ************* Estilos de los finales ************* */
+
+div#info3{
+    width: 1150px;
+    height: 890px;
+    background-image: url(../img/final1.png);
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+div#info4{
+    width: 1150px;
+    height: 890px;
+    background-image: url(../img/final2.png);
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+div#foto1:hover div#info3{
+    visibility: visible;
+    transition: 1s;
+}
+
+div#foto2:hover div#info4{
+    visibility: visible;
+    transition: 1s;
+}
+
+
+
