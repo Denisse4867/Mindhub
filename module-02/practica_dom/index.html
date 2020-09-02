@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM</title>
+</head>
+
+<body>
+<header>
+	<h1>
+		Manipulacion del DOM con JS
+	</h1>
+</header>
+<main>
+	<form onsubmit="crearTarjetaB(event)">
+		<fieldset>
+			<legend> Create a Card </legend>
+			<label> Title:
+				<input type="text" name="title" id="title"> 	
+			</label>
+			<label for="text-box"> Text: </label>
+			<textarea name="text-box" id="text-box" cols="30" rows="10"></textarea>
+			<input type="submit" value="Add">
+		</fieldset>
+	</form>
+
+	<section id="cards">
+		<h2>Cards</h2>
+		<article id="art1">
+			<h3>Lorem ipsum</h3>
+			<p id="pl">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nisi ducimus quisquam recusandae et facilis enim nobis porro quas illo, ea fugit laudantium exercitationem iste, suscipit unde nam sequi ex.
+			</p>
+		</article>
+
+		<article id="art2">
+			<h3>Lorem ipsum</h3>
+			<p id="pl">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nisi ducimus quisquam recusandae et facilis enim nobis porro quas illo, ea fugit laudantium exercitationem iste, suscipit unde nam sequi ex.
+			</p>
+		</article>
+
+		<article id="art3">
+			<h3>Lorem ipsum</h3>
+			<p id="pl">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, nisi ducimus quisquam recusandae et facilis enim nobis porro quas illo, ea fugit laudantium exercitationem iste, suscipit unde nam sequi ex.
+			</p>
+		</article>
+
+	</section>
+</main>
+</body>
+
+
+</html>
